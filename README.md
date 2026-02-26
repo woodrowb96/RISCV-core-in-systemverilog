@@ -1,4 +1,7 @@
 # RISCV-core-in-systemverilog
+
+Note: This project was my first pass at building a RISCV implementation. I am currently redeveloping another RISCV implementation with a focus on Verification and improved RTL quality. For my current work see this repo: https://github.com/woodrowb96/riscv-rtl-and-verification 
+
 This project is an implementation of the RISCV RV32I base integer instruction set in systemverilog. 
 
 The ISA implementation includes
@@ -6,15 +9,15 @@ The ISA implementation includes
 * Dynamic branch prediction 
 * L1 instruction and data caches
 
-A simplified block diagram of the implementation can be seen bellow.
+A simplified block diagram of the implementation can be seen below.
 
-The RTL sytemverilog source code for the project is located in the rtl_src folder.
+The RTL systemverilog source code for the project is located in the rtl_src folder.
 
 Testbenches for the RTL source modules are located in the tb folder. 
 
 I have also included the vsim_comp.sh and vsim_sim.sh bash scripts used to compile and run test bench simulations using ModelSim.
 
-FENCE,ECALL and EBREAK as well as interupt handling have not been implemented yet.
+FENCE,ECALL and EBREAK as well as interrupt handling have not been implemented yet.
 
 
 ![Screenshot from 2022-06-22 16-31-50](https://user-images.githubusercontent.com/39601174/175176486-51b217d5-0bff-4e21-95a0-01430b750c64.png)
