@@ -1,6 +1,6 @@
-# RISCV-core-in-systemverilog
-
 Note: This project was my first pass at building a RISCV implementation. I am currently redeveloping another RISCV implementation with a focus on Verification and improved RTL quality. For my current work see this repo: https://github.com/woodrowb96/riscv-rtl-and-verification 
+
+# RISCV-core-in-systemverilog
 
 This project is an implementation of the RISCV RV32I base integer instruction set in systemverilog. 
 
